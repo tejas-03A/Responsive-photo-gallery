@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="PG.css">
+</head>
+
+<body>
+    <script src="PG.js"></script>
+
+    <header>
+        <h1>Photo Gallery</h1>
+    </header>
+
+    <main>
+        <section id="upload-section">
+            <h2>Upload a Photo</h2>
+            <form id="upload-form">
+                <input type="file" id="file-input" accept="image/*" required>
+                <button type="submit">Upload</button>
+            </form>
+        </section>
+
+        <section id="gallery-section">
+            <input type="text" id="text-input">
+            <button onclick="addcomments()">Add comment</button>
+            <ul id="ulist"></ul>
+            <div id="image-gallery"></div>
+        </section>
+    </main>
+
+
+</body>
+
+</html>

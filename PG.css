@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #beb3b8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+element.style {
+    margin-right: 500px;
+}
+
+#file-input {
+    margin-right: 500px;
+}
+
+h2 {
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+button {
+    color: blue;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin: 50px;
+}
+
+#text-input {
+    margin: 5px;
+    border: #333;
+    margin-top: 20px;
+}
